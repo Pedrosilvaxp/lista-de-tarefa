@@ -31,7 +31,8 @@ function adicionar() {
     buttonV.type = 'button';
     buttonV.value = 'V';
     buttonV.addEventListener('click', function() {
-        novaTarefa.style.opacity = '0.20';
+        novaTarefa.style.opacity = '0.60';
+        novaTarefa.style.border = '1px solid green';
     });
 
     // Atribuindo elementos
