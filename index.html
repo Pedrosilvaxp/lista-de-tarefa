@@ -8,14 +8,18 @@
 </head>
 <body>
     <main>
-        <h1>Lista de Tarefas</h1>
-        
-        <input type="text" name="nome" id="nome" placeholder="Crie uma tarefa" selected>
+        <header>
+            <h1>To-do list</h1>
+            <p>Adicione abaixo</p>
+            
+            <input type="text" name="nome" id="nome" placeholder="Crie uma tarefa" autocomplete="off" selected>
 
-        <div class="botoes">
-            <input type="button" class="add" value="Adicionar" onclick="adicionar()">
-            <input type="button" value="Limpar" onclick="limpar()">
-        </div>
+            <div class="botoes">
+                <input type="button" value="Finalizar" onclick="limpar()">
+                <input type="button" class="add" value="Adicionar" onclick="adicionar()">
+            </div>
+        </header>
+
     </main>
     
     <script src="script.js"></script>
